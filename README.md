@@ -10,10 +10,10 @@ RAM     | 3/4GB
 Android | 7.1.2
 Battery | 3100 mAh
 Display | 720x1280 pixels, 5.0 (~320 ppi pixel density)
-Rear Camera  | 13MP, 4128x3096 pixels, PDAF
-Front Camera | 5 MP, 2560x1920 pixels
+Rear Camera  | 13MP, LED flash
+Front Camera | 16MP, LED flash
 
-![Xiaomi Redmi NOTE5A](https://camo.githubusercontent.com/ad9c418a51a71cb7d6c0fe1bbb7f321bd66d3ed0/68747470733a2f2f63646e322e67736d6172656e612e636f6d2f76762f706963732f7869616f6d692f7869616f6d692d7265646d692d6e6f74652d3561732d322e6a7067 "Xiaomi NOTE5A")
+![Xiaomi Redmi NOTE5A](https://camo.githubusercontent.com/487fcf781ad9de14c71ef8bd775af4e88dbba2be/68747470733a2f2f63646e322e67736d6172656e612e636f6d2f76762f706963732f7869616f6d692f7869616f6d692d7265646d692d6e6f74652d35612d322e6a7067 "Xiaomi NOTE5A")
 
 ## Copyright
 
