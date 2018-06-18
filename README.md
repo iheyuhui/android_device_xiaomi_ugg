@@ -1,4 +1,5 @@
 This repository contains device configuration for Xiaomi Redmi NOTE5A (ugg)
+# LineageOS14.1 device
 
 Basic   | Spec Sheet
 -------:|:----------
