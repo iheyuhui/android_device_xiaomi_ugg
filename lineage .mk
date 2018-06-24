@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
 # Inherit from ugg device
 $(call inherit-product, device/xiaomi/ugg/device.mk)
@@ -39,4 +39,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="ugg-user 7.1.2 N2G47H V9.8.4.26.NAMCNEK release-keys"
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
-    ro.product.model
+    ro.product.model=Redmi Note 5A

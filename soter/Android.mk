@@ -1,6 +1,5 @@
 #
-# Copyright (C) 2018 The LineageOS Project
-#
+# Copyright (C) 2017 The MoKee Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,17 +14,17 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/ugg
+LOCAL_PATH := $(call my-dir)
 
-# inherit from common msm8937-common
--include device/xiaomi/msm8937-common/BoardConfigCommon.mk
+include $(CLEAR_VARS)
 
-# Inherit device-specific board fragments
-include $(DEVICE_PATH)/board/*.mk
+LOCAL_MODULE := soter
+LOCAL_MODULE_TAGS := optional
 
-#consumerir
-#PRODUCT_PACKAGES += \
-#consumerir.default
+LOCAL_SRC_FILES := \
+    $(call all-java-files-under, java) \
+    ../../../../frameworks/base/keystore/java/android/security/keystore/KeyProperties.java
 
-# Inherit the proprietary files
--include vendor/xiaomi/ugg/BoardConfigVendor.mk
+LOCAL_JAVA_LIBRARIES := bouncycastle okhttp
+
+include $(BUILD_JAVA_LIBRARY)

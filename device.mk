@@ -22,5 +22,13 @@ $(call inherit-product, device/xiaomi/msm8937-common/msm8937.mk)
 # Include device-specific product fragments
 include $(DEVICE_PATH)/product/*.mk
 
+# SOTER (Fingerprint support for WeChat Payment)
+PRODUCT_PACKAGES += \
+    soter
+
+PRODUCT_BOOT_JARS += \
+    soter
+
+
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/ugg/ugg-vendor.mk)
